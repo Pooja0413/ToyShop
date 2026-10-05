@@ -1,0 +1,6 @@
+{
+  "name": "Wonderkind Toys - Handcrafted Heirloom & Play Studio",
+  "description": "Discover artisanal wooden toys, imaginative plush companions, and creative STEM exploration sets crafted with non-toxic sustainable materials for growing minds.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
