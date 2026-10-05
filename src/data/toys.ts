@@ -1,6 +1,11 @@
 import { ToyProduct } from '../types/toy';
+import heroToyAtelier from '../assets/images/hero_toy_atelier_1791175406393.jpg';
+import toyWoodenTrain from '../assets/images/toy_wooden_train_1791175418203.jpg';
+import toyRetroRobot from '../assets/images/toy_retro_robot_1791175430292.jpg';
+import toyLinenBunny from '../assets/images/toy_linen_bunny_1791175440391.jpg';
+import toyStemTelescope from '../assets/images/toy_stem_telescope_1791175450871.jpg';
 
-export const HERO_IMAGE = '/src/assets/images/hero_toy_atelier_1791175406393.jpg';
+export const HERO_IMAGE = heroToyAtelier;
 
 export const TOY_PRODUCTS: ToyProduct[] = [
   {
@@ -23,7 +28,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Open-ended storytelling and cooperative track building',
       'Tactile appreciation of natural solid grain textures'
     ],
-    imageUrl: '/src/assets/images/toy_wooden_train_1791175418203.jpg',
+    imageUrl: toyWoodenTrain,
     rating: 4.9,
     reviewCount: 42,
     inStock: true,
@@ -71,7 +76,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Inspires curiosity regarding how gear reductions function',
       'Screen-free tactile cause-and-effect fascination'
     ],
-    imageUrl: '/src/assets/images/toy_retro_robot_1791175430292.jpg',
+    imageUrl: toyRetroRobot,
     rating: 4.8,
     reviewCount: 38,
     inStock: true,
@@ -109,7 +114,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Encourages emotional empathy and bedtime comfort',
       'Machine washable gentle cycle for everyday life'
     ],
-    imageUrl: '/src/assets/images/toy_linen_bunny_1791175440391.jpg',
+    imageUrl: toyLinenBunny,
     rating: 5.0,
     reviewCount: 56,
     inStock: true,
@@ -148,7 +153,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Teaches focus calibration and fine visual observation',
       'Includes illustrated seasonal constellation handbook'
     ],
-    imageUrl: '/src/assets/images/toy_stem_telescope_1791175450871.jpg',
+    imageUrl: toyStemTelescope,
     rating: 4.9,
     reviewCount: 29,
     inStock: true,
@@ -186,7 +191,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Open-ended imaginative worldbuilding and bridges',
       'Matte texture provides gentle friction that prevents slipping'
     ],
-    imageUrl: '/src/assets/images/toy_wooden_train_1791175418203.jpg',
+    imageUrl: toyWoodenTrain,
     rating: 4.8,
     reviewCount: 31,
     inStock: true,
@@ -223,7 +228,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Safe for sensitive skin and incidental mouth contact',
       'Rich, velvety lightfast watercolor washes'
     ],
-    imageUrl: '/src/assets/images/hero_toy_atelier_1791175406393.jpg',
+    imageUrl: heroToyAtelier,
     rating: 4.9,
     reviewCount: 22,
     inStock: true,
@@ -260,7 +265,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Teaches biological ecology and forest biodiversity',
       'Serves as decorative nursery wall art when completed'
     ],
-    imageUrl: '/src/assets/images/hero_toy_atelier_1791175406393.jpg',
+    imageUrl: heroToyAtelier,
     rating: 4.7,
     reviewCount: 19,
     inStock: true,
@@ -297,7 +302,7 @@ export const TOY_PRODUCTS: ToyProduct[] = [
       'Fine motor dexterity with tongs, ladles, and lids',
       'Includes 6 wipe-clean pictorial seasonal recipe cards'
     ],
-    imageUrl: '/src/assets/images/toy_wooden_train_1791175418203.jpg',
+    imageUrl: toyWoodenTrain,
     rating: 4.9,
     reviewCount: 35,
     inStock: true,

@@ -20,7 +20,19 @@ export default function App() {
   const [cart, setCart] = useState<CartItem[]>(() => {
     try {
       const saved = localStorage.getItem('wonderkind_cart');
-      return saved ? JSON.parse(saved) : [];
+      if (!saved) return [];
+      const parsed = JSON.parse(saved);
+      if (!Array.isArray(parsed)) return [];
+      return parsed.filter(
+        (item): item is CartItem =>
+          Boolean(
+            item &&
+            item.product &&
+            typeof item.product.id === 'string' &&
+            typeof item.product.price === 'number' &&
+            typeof item.quantity === 'number'
+          )
+      );
     } catch {
       return [];
     }
@@ -29,7 +41,13 @@ export default function App() {
   const [wishlist, setWishlist] = useState<ToyProduct[]>(() => {
     try {
       const saved = localStorage.getItem('wonderkind_wishlist');
-      return saved ? JSON.parse(saved) : [];
+      if (!saved) return [];
+      const parsed = JSON.parse(saved);
+      if (!Array.isArray(parsed)) return [];
+      return parsed.filter(
+        (p): p is ToyProduct =>
+          Boolean(p && typeof p.id === 'string' && typeof p.name === 'string')
+      );
     } catch {
       return [];
     }
